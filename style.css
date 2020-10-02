@@ -1,11 +1,12 @@
 *{
-    margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-}
+  }
 
 body{
-background-color: #93e3cd   ;
+  background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+  background: linear-gradient(to right, #25c481, #25b7c4);
+  font-family: 'Roboto', sans-serif;
 }
 .header{
     margin:auto;
@@ -15,6 +16,19 @@ height:fit-content;
   
   margin-top: 20px;
 }
+
+.todo
+{
+  font-family: Helvetica;
+  color: white;
+}
+
+.addBtn:hover {
+    background: brown;
+    color: white;
+  }
+
+
 
 
 h2,h6{
@@ -40,7 +54,7 @@ width: fit-content;
     cursor: pointer;
     margin-top:20px;
     font-family: 'Times New Roman', Times, serif;
-   background-color: blue;
+   background-color: #B404AE;
    border: none;
 }
 
